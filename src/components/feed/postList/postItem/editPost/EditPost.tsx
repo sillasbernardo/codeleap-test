@@ -11,11 +11,9 @@ import { updatePost, getPosts } from "../../../../../actions/postFetch/FetchPost
 interface PropType {
   closeModal: () => void;
   id: number;
-  title: string;
-  content: string;
 }
 
-const EditPost = ({ closeModal, id, title, content }: PropType) => { 
+const EditPost = ({ closeModal, id }: PropType) => { 
 
   const dispatch = useDispatch();
 
@@ -36,7 +34,7 @@ const EditPost = ({ closeModal, id, title, content }: PropType) => {
     })
   }
 
-  const saveButtonHandler = async (event: React.ChangeEvent<HTMLButtonElement>) => {
+  const saveButtonHandler = async (event: React.MouseEvent<HTMLButtonElement>) => {
     try {
       event.preventDefault();
       // Send updated post to API

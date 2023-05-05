@@ -15,7 +15,7 @@ interface PropType {
 const DeletePost = ({ closeModal, id }: PropType) => {
   const dispatch = useDispatch();
 
-  const deletePostHandler = async (event: React.ChangeEvent<HTMLButtonElement>) => {
+  const deletePostHandler = async (event: React.MouseEvent<HTMLButtonElement>) => {
     try {
       event.preventDefault();
 

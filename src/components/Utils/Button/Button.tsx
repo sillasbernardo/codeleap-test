@@ -1,8 +1,9 @@
+import React from "react";
 import "./Button.scss";
 
 interface PropType {
   children: string;
-  onClick: () => void | undefined;
+  onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void
   color: string | undefined;
   className?: string;
   disabled?: boolean;

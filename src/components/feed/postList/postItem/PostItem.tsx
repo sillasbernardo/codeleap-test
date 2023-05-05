@@ -77,8 +77,6 @@ const PostItem = ({ title, username, createdDate, id, content }: PropType) => {
           {postOptions.isEdit && (
             <EditPost
               id={id}
-              title={title}
-              content={content}
               closeModal={closeModalHandler}
             />
           )}

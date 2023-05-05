@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 
 import "./Feed.scss";

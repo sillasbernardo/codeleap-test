@@ -45,7 +45,7 @@ const PostForm = () => {
     });
   };
 
-  const createButtonHandler = async (event: React.ChangeEvent<HTMLButtonElement>) => {
+  const createButtonHandler = async (event: React.MouseEvent<HTMLButtonElement>) => {
     try {
       event.preventDefault();      
       // Send new post to API

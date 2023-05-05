@@ -25,13 +25,13 @@ interface PropType {
     value?: string;
     className?: string;
     color?: string;
-    onClick?: (event: React.ChangeEvent<HTMLButtonElement>) => void;
+    onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   };
   submitBtn: {
     value: string;
     className?: string;
     color: string;
-    onClick: (event: React.ChangeEvent<HTMLButtonElement>) => void;
+    onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
   };
 }
 

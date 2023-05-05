@@ -1,0 +1,11 @@
+/* Sass variables are stored in 'styles/_variables.scss' */
+
+*{
+ margin: 0;
+ padding: 0;
+ font-family: 'roboto';
+}
+
+body{
+  background-color: $cl-background;
+}

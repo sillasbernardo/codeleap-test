@@ -1,0 +1,26 @@
+.feed__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+
+  .feed__item {
+    background-color: white;
+    width: 50%;
+    min-width: 350px;
+
+    .feed__header {
+      background-color: $cl-blue;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &>h3 {
+        color: white;
+        font-family: "roboto";
+        font-weight: 700;
+        padding: 20px;
+      }
+    }
+  }
+}

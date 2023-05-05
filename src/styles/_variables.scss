@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'roboto';
+  src: url(/src/assets/fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'roboto bold';
+  src: url(/src/assets/fonts/roboto/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+// Default color palette
+$cl-background: #DDDDDD;
+$cl-blue: #7695EC;
+$cl-red: #FF5151;
+$cl-green: #47B960;
+$cl-border-color: #999999;

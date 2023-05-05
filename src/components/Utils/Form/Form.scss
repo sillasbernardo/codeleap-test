@@ -1,0 +1,18 @@
+.form__container{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid $cl-border-color;
+  border-radius: 10px;
+
+  &>h3{
+    font-family: 'roboto';
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  .form__btns{
+    margin-left: auto;
+  }
+}

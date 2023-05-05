@@ -1,0 +1,25 @@
+.login__container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .login__item {
+    background-color: white;
+    display: inherit;
+    flex-direction: column;
+    
+    padding: 20px;
+    border-radius: 16px;
+
+    &>h2{
+      font-family: 'roboto';
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .login__btn{
+      margin-left: auto;      
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.textarea__label-item{
+  margin: 5px 0;
+  font-size: 11pt
+}
+
+.textarea__textarea-item{
+  border-radius: 7px;
+  padding: 7px 10px;
+  border-style: none;
+  border: 1px solid $cl-border-color;
+  margin: 5px 0 10px 0;
+  resize: none;
+
+  &::placeholder{
+    color: #CCC;
+  }
+}

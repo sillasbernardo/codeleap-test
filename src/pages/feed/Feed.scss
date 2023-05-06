@@ -4,6 +4,7 @@
   align-items: center;
   position: fixed;
   left: 50%;
+  transform: translate(0, -50%);
 
   .feed__item {
     background-color: white;

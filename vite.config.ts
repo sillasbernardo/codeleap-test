@@ -10,8 +10,5 @@ export default defineConfig({
         additionalData: `@use "./src/styles/_variables.scss" as *;`
       }
     }
-  },
-  build: {
-    outDir: "./build"
   }
 })

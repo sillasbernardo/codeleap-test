@@ -5,6 +5,8 @@
   position: fixed;
   left: 50%;
   transform: translate(-50%, 0);
+  width: 60%;
+  min-width: 350px;
 
   .feed__item {
     background-color: white;
